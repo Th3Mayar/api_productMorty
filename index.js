@@ -73,6 +73,10 @@ app.get("/products", (req, res) => {
     res.json(products)
 })
 
+app.post("/product", (req, res) => {
+    products.push(req.body)
+    res.json(req.body)
+})
 
 app.listen(PORT, () =>{
     console.log(`Server running on port http://localhost:${PORT}`)
