@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun --env=.env --watch index.js",
-    "start": "node index.js"
+    "start": "bun index.js"
   },
   "author": "Th3Mayar",
   "license": "MIT",
