@@ -1,15 +1,15 @@
 import fetch from 'node-fetch'
 
-const product = await fetch("https://astro-fetching.vercel.app/product", {
+const product = await fetch("https://api-morty-products.vercel.app/product", {
   method: "POST",
     headers: {
         "Content-Type": "application/json",
     },
    body: JSON.stringify({
-     id: 6,
-     name: "Jaifon XS",
+     id: 8,
+     name: "Mouse Gamer",
     price: 500,
-     img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gizmochina.com%2Fwp-content%2Fuploads%2F2023%2F01%2Fiphone15-concept.jpg&f=1&nofb=1&ipt=7809ae6b73c0a5f68e184b4292a5e66106ba234c98c524da5bb67bc728cb633a&ipo=images",
+     img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F61QXVSF6bLL._AC_SL1500_.jpg&f=1&nofb=1&ipt=4008d1dd353e0b61d340a03cb9f08a36eaeddcbb643e3dbb8a289f46bb7968da&ipo=images",
 }),
 });
 
