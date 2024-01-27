@@ -1,0 +1,17 @@
+{
+  "name": "api_express",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Primer project example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun --env=.env --watch index.js"
+  },
+  "author": "Th3Mayar",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
