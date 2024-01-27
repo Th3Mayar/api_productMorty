@@ -1,8 +1,8 @@
 import exp from "express";
-import { products } from "./products";
-import { data } from "./R&M";
+import { products } from "./products.js";
+import { data } from "./R&M.js";
 import cors from 'cors';
-//
+
 const app = exp()
 
 app.use(exp.json())
